@@ -381,6 +381,11 @@
       "Testy/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": "17.10.0",
+          "NUnit": "4.1.0",
+          "NUnit3TestAdapter": "4.5.0"
+        },
         "compile": {
           "bin/placeholder/Testy.dll": {}
         },
@@ -1084,5 +1089,34 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Wykryto obniżenie wersji pakietu: Microsoft.NET.Test.Sdk z 17.10.0 na 17.7.1. Aby wybrać inną wersję, odwołaj się do pakietu bezpośrednio z projektu. \r\n Testy.Tests -> Testy -> Microsoft.NET.Test.Sdk (>= 17.10.0) \r\n Testy.Tests -> Microsoft.NET.Test.Sdk (>= 17.7.1)",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Wykryto obniżenie wersji pakietu: NUnit z 4.1.0 na 3.13.3. Aby wybrać inną wersję, odwołaj się do pakietu bezpośrednio z projektu. \r\n Testy.Tests -> Testy -> NUnit (>= 4.1.0) \r\n Testy.Tests -> NUnit (>= 3.13.3)",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Wykryto obniżenie wersji pakietu: NUnit3TestAdapter z 4.5.0 na 4.4.2. Aby wybrać inną wersję, odwołaj się do pakietu bezpośrednio z projektu. \r\n Testy.Tests -> Testy -> NUnit3TestAdapter (>= 4.5.0) \r\n Testy.Tests -> NUnit3TestAdapter (>= 4.4.2)",
+      "libraryId": "NUnit3TestAdapter",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

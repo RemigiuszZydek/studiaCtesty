@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "XIp0WoN2TNdVlvGkTqzTVE3oNhSSHAf7I3laWbDsP1Pe7k5eaTFnCdEyh4WKmiXRZZ5q2bZrPpJtjKQsL8K80A==",
-  "success": true,
+  "dgSpecHash": "ALchc9Ei8FmuLpCraZ841YFbyhQmtdl3GSPFMMvjznYSh3K2cRPeazx6P2LM9c3PFwkVq3iJqJD45joib+aMtw==",
+  "success": false,
   "projectFilePath": "C:\\Users\\zydus\\OneDrive\\Pulpit\\programowanieStudia\\programowanieCTesty\\studiaCtesty\\Testy\\Testy.Tests\\Testy.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zydus\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
@@ -18,5 +18,33 @@
     "C:\\Users\\zydus\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
     "C:\\Users\\zydus\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Wykryto obniżenie wersji pakietu: Microsoft.NET.Test.Sdk z 17.10.0 na 17.7.1. Aby wybrać inną wersję, odwołaj się do pakietu bezpośrednio z projektu. \r\n Testy.Tests -> Testy -> Microsoft.NET.Test.Sdk (>= 17.10.0) \r\n Testy.Tests -> Microsoft.NET.Test.Sdk (>= 17.7.1)",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Wykryto obniżenie wersji pakietu: NUnit z 4.1.0 na 3.13.3. Aby wybrać inną wersję, odwołaj się do pakietu bezpośrednio z projektu. \r\n Testy.Tests -> Testy -> NUnit (>= 4.1.0) \r\n Testy.Tests -> NUnit (>= 3.13.3)",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Wykryto obniżenie wersji pakietu: NUnit3TestAdapter z 4.5.0 na 4.4.2. Aby wybrać inną wersję, odwołaj się do pakietu bezpośrednio z projektu. \r\n Testy.Tests -> Testy -> NUnit3TestAdapter (>= 4.5.0) \r\n Testy.Tests -> NUnit3TestAdapter (>= 4.4.2)",
+      "libraryId": "NUnit3TestAdapter",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

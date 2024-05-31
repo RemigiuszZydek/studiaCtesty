@@ -2,3 +2,4 @@ C:\Users\zydus\OneDrive\Pulpit\programowanieStudia\programowanieCTesty\studiaCte
 C:\Users\zydus\OneDrive\Pulpit\programowanieStudia\programowanieCTesty\studiaCtesty\Testy\obj\Debug\net7.0\Testy.AssemblyInfoInputs.cache
 C:\Users\zydus\OneDrive\Pulpit\programowanieStudia\programowanieCTesty\studiaCtesty\Testy\obj\Debug\net7.0\Testy.AssemblyInfo.cs
 C:\Users\zydus\OneDrive\Pulpit\programowanieStudia\programowanieCTesty\studiaCtesty\Testy\obj\Debug\net7.0\Testy.csproj.CoreCompileInputs.cache
+C:\Users\zydus\OneDrive\Pulpit\programowanieStudia\programowanieCTesty\studiaCtesty\Testy\obj\Debug\net7.0\Testy.csproj.AssemblyReference.cache
