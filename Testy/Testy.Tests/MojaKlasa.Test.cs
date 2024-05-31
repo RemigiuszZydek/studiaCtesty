@@ -1,5 +1,5 @@
      using NUnit.Framework;
-     using MyApp;
+     using Testy;
 
      [TestFixture]
      public class MojaKlasaTest
